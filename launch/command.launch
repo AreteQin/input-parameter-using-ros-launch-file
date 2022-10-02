@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="command_parser" pkg="input-command-line-parameter-using-launch-file" type="command_parser" output="screen" >
+          <param name="dataset_dir" value="/home/qin/Downloads/large_loop_1" />
+  </node>
+
+</launch>
